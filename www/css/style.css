@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Poppins&display=swap');
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{    
+    height: 100vh;
+    background: #dcffef;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+#LogoId{
+    max-width: 100px;
+}
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.4rem 8rem;
+    align-items: center;
+    background: #1a1717;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.462), 4px 4px 4px rgba(0, 0, 0, 0.396);
+}
+.cabeçalho logo LogoId{
+    max-width: 100px;
+}
+li{
+    padding: 0 0.8rem;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+    color: #fff;
+}
+li:hover{
+    color: #26a96a;
+}
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 7vh;
+    margin-top: 3vh;
+}
+
+p{
+    width: 50%;
+    font-size: 13pt;
+    font-family: 'Poppins', sans-serif;
+    line-height: 23px;
+}
+h1{ 
+    font-family: badab;
+    font-size: 50pt;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{  
+    margin-top: 2vh;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    width: 50%;
+    height: 6vh;
+    padding: 10px;
+    border: 1px solid #1a1717;
+}
+input:hover{
+    border: 2px solid #26a96a;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.396);
+}
+input:focus{
+    border: 2px solid #26a96a;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.396);
+}
+form [type="submit"]{
+    width: 30%;
+    font-weight: bold;
+    background: #26a96a;
+    border: none;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+    background: #72c79e;
+    color: white;
+}
+#conta{
+    border: 2px solid #26a96a;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+#conta:hover{
+    background: #26a96a;
+    color: white;
+}
+article img{
+    margin-top: 3vh;
+    max-width: 375px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #1a1717;
+    padding: 13px;      
+    flex: 1;
+
+}
+footer .p-footer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 20pt;
+    text-align: center;
+
+}
+
+    @media screen and (max-width: 768px){
+    .cabeçalho{
+        flex-direction: column;
+        padding: 0.6rem 0; 
+        }
+    main{
+        flex-direction: column;
+        padding: 0.5rem;
+
+    }
+    main input{
+        width: 100%;
+    }
+    main p{
+        font-size: 15pt;
+        width: 100%;
+    }
+    aside{
+        flex-direction: column;
+    }
+    article img{
+        display: none;
+    }
+}
+
+@font-face {
+    font-family: badab;
+    src: url(./BADABB__.TTF);
+}
