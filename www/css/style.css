@@ -93,7 +93,6 @@ form [type="submit"]:hover{
     border: 2px solid #26a96a;
     border-radius: 20px;
     padding: 10px;
-
 }
 #conta:hover{
     background: #26a96a;
@@ -144,6 +143,8 @@ footer .p-footer {
     article img{
         display: none;
     }
+    h1{
+        text-align: center;
 }
 
 @font-face {
